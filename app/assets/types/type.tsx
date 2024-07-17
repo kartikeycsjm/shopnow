@@ -1,7 +1,9 @@
 export type product={
-    picture: string
-    category?:string,
     name:string,
     description:string,
+    picture: string
+    category?:string,
+    
+    
     price:number
 }

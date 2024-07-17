@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { product } from '../../types/type'
-const Item = ({ name, description, picture, price }: product) => {
+const Item = ({ name, description, picture, price }:any) => {
     return (
         <div className='mx-3 w-[250px] h-[310px]'>
             <div className='bg-blue-100 h-[200px] w-[250px] rounded flex justify-center items-center'>
