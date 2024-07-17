@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+
+#category{
+  overflow-x: scroll;
+  display: flex;
+}
+#category::-webkit-scrollbar{
+  width: 0px;
+}
