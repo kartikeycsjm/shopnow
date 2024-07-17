@@ -1,7 +1,7 @@
 import Item from "./assets/components/Items/page";
 import { product } from "./assets/types/type";
 const getData = async () => {
-  const res = await fetch('http://localhost:3000/api/products', { cache: "no-store" })
+  const res = await fetch('http://shopnow1.vercel.app/api/products', { cache: "no-store" })
   if (!res.ok) {
     throw new Error('Failed to fetch data')
   }
