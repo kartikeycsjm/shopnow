@@ -12,7 +12,7 @@ const Item = ({ name, description, picture, price }:any) => {
                     <h3 className='text-lg font-bold'>{name}</h3>
 
                     <p className='text-[12px]'>{description}</p>
-                    <span>{price}</span>
+                    <span><pre>&#8377;{price}</pre></span>
                 </div>
                 <button className='bg-emerald-400 w-[50px]'>+</button>
             </div>
