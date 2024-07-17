@@ -3,7 +3,5 @@ export type product={
     description:string,
     picture: string
     category?:string,
-    
-    
     price:number
 }
